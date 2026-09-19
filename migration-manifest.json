@@ -1,0 +1,90 @@
+{
+  "synchronized_on": "2026-09-18",
+  "target_repository": "https://github.com/liuwei175/liuwei175.github.io",
+  "target_branch": "main",
+  "package_type": "overlay update; keep existing repository files",
+  "pages": [
+    {
+      "path": "index.html",
+      "source": "https://sites.google.com/view/liu-wei/homepage"
+    },
+    {
+      "path": "ch/index.html",
+      "source": "https://sites.google.com/view/liu-wei/homepage"
+    },
+    {
+      "path": "research-summary.html",
+      "source": "https://sites.google.com/view/liu-wei/homepage/research-summary"
+    },
+    {
+      "path": "opening.html",
+      "source": "https://sites.google.com/view/liu-wei/homepage/opening"
+    },
+    {
+      "path": "photos.html",
+      "source": "https://sites.google.com/view/liu-wei/homepage/photos"
+    },
+    {
+      "path": "publications.html",
+      "source": "https://sites.google.com/view/liu-wei/publications"
+    },
+    {
+      "path": "talks.html",
+      "source": "https://sites.google.com/view/liu-wei/talks"
+    },
+    {
+      "path": "grants.html",
+      "source": "https://sites.google.com/view/liu-wei/grants"
+    },
+    {
+      "path": "links.html",
+      "source": "https://sites.google.com/view/liu-wei/links"
+    }
+  ],
+  "preserved_repository_assets": [
+    "lw.jpeg",
+    "Myphoto.jpg",
+    "favicon.ico",
+    "jemdoc.css",
+    "MENU",
+    "update.sh"
+  ],
+  "referenced_existing_assets": [
+    "lw.jpeg",
+    "favicon.ico"
+  ],
+  "included_local_assets": [
+    "site.css"
+  ],
+  "content_counts": {
+    "news_per_homepage": 6,
+    "selected_publications_per_homepage": 6,
+    "journal_publications_and_preprints": 10,
+    "other_publications": 2,
+    "conference_talks": 11,
+    "invited_talks": 7,
+    "grants": 4,
+    "refereed_journals_per_homepage": 8
+  },
+  "notes": [
+    "Homepage source displays a future Wuhan University appointment using past tense. Changed tense to future and retained its year and published titles.",
+    "News dates retain MM.DD exactly; years not given on the source were not inferred.",
+    "The source Grants page dates the talent-program project from 2025, whereas the homepage award is dated 2026. Both source values are retained; they were not silently reconciled.",
+    "The publications page formerly says min-sum-max; use min-expectation-max consistently with the newer homepage and the linked arXiv version.",
+    "The 2307.07605 extended preprint and the 2502.17770 lower-bound paper remain separate source entries; the former links to the related MOR article with an explicit label.",
+    "TMLR entries are retained together under Other publications and preprints rather than calling them conference papers.",
+    "The two future intake years and the current no-position/co-supervision notice are both retained from the source.",
+    "The October 2026 invited talk is explicitly marked scheduled.",
+    "Thesis and slide links resolve to the author’s slides_pdfs repository, replacing old links to absent files in the website repository.",
+    "Original Google Sites photos remain in the linked album; their image files were not downloaded. The existing repository portrait is reused.",
+    "No remote repository changes or deployments were performed."
+  ],
+  "external_link_checks": {
+    "method": "Source-link review and selected public-page opens; not an exhaustive live HTTP check.",
+    "restricted_or_unverified": [
+      "Google Sites image URLs returned HTTP 403",
+      "code-for-SPG/tree/main was restricted in the browsing tool; the original source link is retained",
+      "Google Scholar blocked automated fetching; the public profile ID is preserved"
+    ]
+  }
+}
