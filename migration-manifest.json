@@ -39,6 +39,14 @@
     {
       "path": "links.html",
       "source": "https://sites.google.com/view/liu-wei/links"
+    },
+    {
+      "path": "teaching.html",
+      "source": "https://sites.google.com/view/liu-wei/teaching"
+    },
+    {
+      "path": "group.html",
+      "source": "https://sites.google.com/view/liu-wei/group"
     }
   ],
   "preserved_repository_assets": [
@@ -64,7 +72,9 @@
     "conference_talks": 11,
     "invited_talks": 7,
     "grants": 4,
-    "refereed_journals_per_homepage": 8
+    "refereed_journals_per_homepage": 8,
+    "teaching_courses": 2,
+    "group_member_entries_published_in_source": 0
   },
   "notes": [
     "Homepage source displays a future Wuhan University appointment using past tense. Changed tense to future and retained its year and published titles.",
@@ -77,7 +87,11 @@
     "The October 2026 invited talk is explicitly marked scheduled.",
     "Thesis and slide links resolve to the author’s slides_pdfs repository, replacing old links to absent files in the website repository.",
     "Original Google Sites photos remain in the linked album; their image files were not downloaded. The existing repository portrait is reused.",
-    "No remote repository changes or deployments were performed."
+    "No remote repository changes or deployments were performed.",
+    "Teaching and Group were added in this revision. All nine pre-existing page bodies and the shared CSS are preserved exactly.",
+    "The Teaching source lists AMA542: Operations Research and AMA1140: MATHEMATICS FOR CONSTRUCTION AND ENVIRONMENT. The latter title is displayed in title case; no course year, semester, syllabus, or material link was invented.",
+    "The Group source currently exposes only the Group heading. A minimal placeholder, a link to the existing Opening page, and the published contact email were added as navigation aids, not as source member data. No member roster or additional group claims were invented.",
+    "Both new pages are linked from all eleven pages, including the Chinese homepage with correct ../ paths. Current-page highlighting and sitemap coverage were updated."
   ],
   "external_link_checks": {
     "method": "Source-link review and selected public-page opens; not an exhaustive live HTTP check.",
@@ -86,5 +100,25 @@
       "code-for-SPG/tree/main was restricted in the browsing tool; the original source link is retained",
       "Google Scholar blocked automated fetching; the public profile ID is preserved"
     ]
+  },
+  "revision": "Teaching and Group pages added; shared navigation updated",
+  "base_package": "liuwei175_github_pages_sync_2026-09-18.zip",
+  "revision_validation": {
+    "html_pages": 11,
+    "local_reference_occurrences": 166,
+    "external_reference_occurrences": 149,
+    "navigation_and_sitemap": "passed",
+    "browser": "Chromium (offline HTML/CSS rendering)",
+    "viewport_widths": [
+      1440,
+      768,
+      390,
+      320
+    ],
+    "page_viewport_combinations": 44,
+    "maximum_horizontal_overflow_px": 0,
+    "unchanged_existing_page_content_except_navigation": true,
+    "unchanged_css": true,
+    "deployed": false
   }
 }
